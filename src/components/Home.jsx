@@ -1,4 +1,5 @@
 import Sidenav from "./templets/Sidenav"
+import Topnav from "./templets/Topnav"
 
 
 const Home = () => {
@@ -6,7 +7,9 @@ const Home = () => {
   return (
     <>
         <Sidenav />
-        <div className="w-[80%] h-full"></div>
+        <div className="w-[80%] h-full">
+            <Topnav />
+        </div>
     </>
   )
 }
