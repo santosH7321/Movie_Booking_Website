@@ -1,11 +1,14 @@
+import Sidenav from "./templets/Sidenav"
 
 
 const Home = () => {
     document.title = "Movie booking Homepage"
   return (
-    
-    <div>Home</div>
+    <>
+        <Sidenav />
+        <div className="w-[80%] h-full"></div>
+    </>
   )
 }
 
-export default Home
+export default Home  
